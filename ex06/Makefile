@@ -1,4 +1,4 @@
-NAME 		= ex06
+NAME 		= harlFilter
 
 CCPP		= g++
 RM			= rm -f
