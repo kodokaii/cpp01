@@ -6,7 +6,7 @@
 /*   By: nlaerema <nlaerema@student.42lehavre.fr>	+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2024/02/23 16:52:21 by nlaerema         ###   ########.fr       */
+/*   Updated: 2024/02/24 18:49:14 by nlaerema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	main(int argc, char *argv[])
 	int		i(0);
 
 	if (1 < argc)
-		zombie = zombieHorde(ZOMBIE_COUNT, argv[0]);
+		zombie = zombieHorde(ZOMBIE_COUNT, argv[1]);
 	else
 		zombie = zombieHorde(ZOMBIE_COUNT, "Fizz");
 	while (i < ZOMBIE_COUNT)
